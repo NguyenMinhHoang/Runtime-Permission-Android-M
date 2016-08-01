@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="opensources.android.runtimepermission.RationalDialog">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Rational Dialog"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@android:string/ok"/>
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/btn_ok"
+        android:layout_marginRight="8dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@android:string/cancel"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_below="@id/tv_title"
+        android:layout_above="@id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

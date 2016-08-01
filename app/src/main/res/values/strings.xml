@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Runtime Permission</string>
+    <string name="introduction">This is demo how to request multi runtime permission with rational dialog on android 6 or later.</string>
+    <string-array name="titles">
+        <item>Request Contact Permission</item>
+        <item>Request Camera Permission</item>
+        <item>Request Location Permission</item>
+    </string-array>
+    <string-array name="messages">
+        <item>The application need Contact Permission to demonstrate how to request and grant permission at runtime</item>
+        <item>The application need Camera Permission to demonstrate how to request and grant permission at runtime</item>
+        <item>The application need Location Permission to demonstrate how to request and grant permission at runtime</item>
+    </string-array>
+    <string name="permission">Permission</string>
+</resources>
